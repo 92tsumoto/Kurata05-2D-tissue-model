@@ -5,9 +5,15 @@ Each cell is a mid-cardial myocyte configuration.
 
 For compile
 
+
 %aclocal
+
 %autoconf
+
 %./configure
+
 %autoheader
+
 %automake -a
+
 %make
