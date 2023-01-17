@@ -1,0 +1,70 @@
+/* Simulation cases */
+// case:0  homogeneous Endo cell unit myofiber
+// case:1  homogeneous Epi cell unit myofiber
+// case:2  homogeneous Mid cell unit myofiber
+// case:5  Transmural case 
+2
+
+/* cluster number of EAD cluster */
+1
+
+// number of EAD units
+// Nx1,Nx2,Nx3,Nx4,Ny1,Ny2,Ny3,Ny4
+100 500 800 800 100 500 800 800 // 400x400
+
+// Diffusive Constant D
+0.00166	// for longitudinal control
+0.00022	// for transmural control
+
+// Diffusive Constant modulation rate
+1.0
+
+/* Base cycle length */
+2000
+//200
+
+/* %Gkr */
+0.13
+
+/* %Gks */
+1.0
+
+/* Istim */
+//0.0	
+-300
+
+/* Stimulation switch */
+// case:0 low stimulation
+// case:1 column stimulation
+// case:2 center units stimulation
+// case:>2 uncoupled system with all units stimulation
+0
+
+/* number of datas */
+1
+
+/* x1, y1 */
+-8.583360508715127e+01
+1.344863381857408e-03
+9.940594845927457e-01
+4.233810728703690e-06
+9.905810213422825e-01
+2.565247506961791e-05
+9.995635179832939e-01
+1.198124971051928e-04
+1.768402704254639e-02
+4.233890286946370e-06
+9.998600880788461e-01
+2.038128966105807e-01
+1.279712625516115e-04
+1.507845367643532e+00
+1.537468357185754e+00
+8.793255855226047e+00
+140.0
+
+100		/* strip for integral */
+0		/* write file 0 --- not write/1 --- write */
+3		/* reduce 1 :/1ms, 2: /5ms, 3:/10ms */
+0		/* out_data 0 --- not write/1 --- write */
+0		/* out_data_plus 0 --- not write/1 --- write */
+0		/* debug 0 --- not /1 --- write */
