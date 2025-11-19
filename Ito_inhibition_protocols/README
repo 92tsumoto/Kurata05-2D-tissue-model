@@ -1,0 +1,14 @@
+all M cell units
+2-Dimensional Kurata ventricular tissue model (sheet model with 100 um tickness)
+Ito inhibition protocol version
+
+longitudinal direction Propagation velocity = 60 [cm/s]
+transverse direction Propagation velocity = 20 [cm/s]
+
+Basic setting
+Diffusive coefficent D_l = 0.00166 [cm^2/ms]
+Diffusive coefficent D_t = 0.00022 [cm^2/ms]
+
+space discrete (delta x) = 100 [um]
+time span = 0.1 [ms]
+
